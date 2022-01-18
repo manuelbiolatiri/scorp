@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "incremental": true,
+
+    /* Language and Environment */
+    "target": "es2017",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    // "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
+    "module": "commonjs",
+    "resolveJsonModule": true,       
+    "outDir": "./build",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": false,                           
+    "strictNullChecks": false,       
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  }
+}
